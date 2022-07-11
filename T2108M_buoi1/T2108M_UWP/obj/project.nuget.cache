@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Acde7t80R5jLIxd7Ic3BkFimkIcnPNnPscffO8XsN6TZGHOMEb3/FS3hNVTrCYfQONmSl2jiGgphKS4AxPRafQ==",
+  "dgSpecHash": "At03hNouQL/b+yLf/GtxePucHh75DLkgKN4ayV4QxwmVrjU2nx8MHyTocCuQLvHDVPhplyHAc+5kVdflAhN7hw==",
   "success": true,
-  "projectFilePath": "D:\\Learn\\DOTNET\\T2108M_buoi1\\T2108M_UWP\\T2108M_UWP.csproj",
+  "projectFilePath": "D:\\Learn\\DOTNET\\DOTNET\\T2108M_buoi1\\T2108M_UWP\\T2108M_UWP.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.native.compiler\\2.2.11-rel-30601-02\\microsoft.net.native.compiler.2.2.11-rel-30601-02.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.uwpcoreruntimesdk\\2.2.13\\microsoft.net.uwpcoreruntimesdk.2.2.13.nupkg.sha512",

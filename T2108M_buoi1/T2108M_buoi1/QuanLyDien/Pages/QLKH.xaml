@@ -1,0 +1,36 @@
+﻿<Page
+    x:Class="QuanLyDien.Pages.QLKH"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:QuanLyDien.Pages"
+    xmlns:models ="using:QuanLyDien.Model"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Button Click="Button_Click" HorizontalAlignment="Left" Content="Add Customer" Grid.Row="0" Margin="10"/>
+        <GridView x:Name="CustomerList">
+            <GridView.ItemTemplate>
+                <DataTemplate x:DataType="models:Customer">
+                    <GridViewItem Tapped="GridViewItem_Tapped" Margin="10" Width="200" Height="300">
+                        <StackPanel>
+                            <TextBlock Text="{x:Bind Id}"/>
+                            <TextBlock Text="{x:Bind Name}"/>
+                            <TextBlock Text="{x:Bind Date}"/>
+                            <TextBlock Text="{x:Bind SLTieuThu}"/>
+                            <TextBlock Text="{x:Bind DonGia}"/>
+                            <TextBlock Text="{x:Bind DinhMuc}"/>
+                        </StackPanel>
+                    </GridViewItem>
+                </DataTemplate>
+            </GridView.ItemTemplate>
+        </GridView>
+
+    </Grid>
+</Page>

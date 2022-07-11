@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Learn\\DOTNET\\T2108M_buoi1\\T2108M_UWP\\T2108M_UWP.csproj": {}
+    "D:\\Learn\\DOTNET\\DOTNET\\T2108M_buoi1\\T2108M_UWP\\T2108M_UWP.csproj": {}
   },
   "projects": {
-    "D:\\Learn\\DOTNET\\T2108M_buoi1\\T2108M_UWP\\T2108M_UWP.csproj": {
+    "D:\\Learn\\DOTNET\\DOTNET\\T2108M_buoi1\\T2108M_UWP\\T2108M_UWP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Learn\\DOTNET\\T2108M_buoi1\\T2108M_UWP\\T2108M_UWP.csproj",
+        "projectUniqueName": "D:\\Learn\\DOTNET\\DOTNET\\T2108M_buoi1\\T2108M_UWP\\T2108M_UWP.csproj",
         "projectName": "T2108M_UWP",
-        "projectPath": "D:\\Learn\\DOTNET\\T2108M_buoi1\\T2108M_UWP\\T2108M_UWP.csproj",
+        "projectPath": "D:\\Learn\\DOTNET\\DOTNET\\T2108M_buoi1\\T2108M_UWP\\T2108M_UWP.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\Learn\\DOTNET\\T2108M_buoi1\\T2108M_UWP\\obj\\",
+        "outputPath": "D:\\Learn\\DOTNET\\DOTNET\\T2108M_buoi1\\T2108M_UWP\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [

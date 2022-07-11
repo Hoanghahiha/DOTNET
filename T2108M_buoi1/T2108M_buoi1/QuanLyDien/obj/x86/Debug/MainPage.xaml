@@ -1,0 +1,42 @@
+﻿<Page
+    x:Class="QuanLyDien.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:QuanLyDien"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <SplitView x:ConnectionId='2' x:Name="SP" OpenPaneLength="180"  DisplayMode="CompactInline" IsPaneOpen="True">
+        <SplitView.Pane>
+            <RelativePanel>
+                <ListViewItem x:ConnectionId='3'                           x:Name="KhachHang" Margin="0,10,0,0">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <FontIcon Grid.Column="0" FontFamily="Segoe MDL2 Assets" Glyph="&#xE716;" Margin="0,8,0,0"/>
+                        <TextBlock Grid.Column="1" Text="Khach Hang" Margin="20,8,0,0"/>
+                    </Grid>
+                </ListViewItem>
+                <ListViewItem x:ConnectionId='4'                      x:Name="QLKH" RelativePanel.Below="KhachHang" Margin="0,10,0,0">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <FontIcon Grid.Column="0" FontFamily="Segoe MDL2 Assets" Glyph="&#xE7EE;" Margin="0,8,0,0"/>
+                        <TextBlock Grid.Column="1" Text="QL Khach Hang" Margin="20,8,0,0"/>
+                    </Grid>
+                </ListViewItem>
+            </RelativePanel>
+        </SplitView.Pane>
+        <SplitView.Content>
+            <ScrollViewer Margin="10">
+                <Frame x:ConnectionId='5' x:Name="MainFrame"></Frame>
+            </ScrollViewer>
+        </SplitView.Content>
+    </SplitView>
+</Page>
+

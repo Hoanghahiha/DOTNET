@@ -1,0 +1,37 @@
+﻿<Page
+    x:Class="QuanLyDien.Pages.QLKH"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:QuanLyDien.Pages"
+    xmlns:models ="using:QuanLyDien.Model"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Button x:ConnectionId='2'                      HorizontalAlignment="Left" Content="Add Customer" Grid.Row="0" Margin="10"/>
+        <GridView x:ConnectionId='3' x:Name="CustomerList">
+            <GridView.ItemTemplate>
+                <DataTemplate                             >
+                    <GridViewItem x:ConnectionId='5'                              Margin="10" Width="200" Height="300">
+                        <StackPanel>
+                            <TextBlock x:ConnectionId='6'                   />
+                            <TextBlock x:ConnectionId='7'                     />
+                            <TextBlock x:ConnectionId='8'                     />
+                            <TextBlock x:ConnectionId='9'                          />
+                            <TextBlock x:ConnectionId='10'                       />
+                            <TextBlock x:ConnectionId='11'                        />
+                        </StackPanel>
+                    </GridViewItem>
+                </DataTemplate>
+            </GridView.ItemTemplate>
+        </GridView>
+
+    </Grid>
+</Page>
+

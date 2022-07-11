@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>50f6f70e-ed52-46b7-aab7-229ac30e7e98</PackageIdentityName>
     <PackageIdentityPublisher>CN=ACER</PackageIdentityPublisher>
-    <IntermediateOutputPath>D:\Learn\DOTNET\T2108M_buoi1\T2108M_UWP\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\Learn\DOTNET\DOTNET\T2108M_buoi1\T2108M_UWP\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>D:\Learn\DOTNET\T2108M_buoi1\T2108M_UWP\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>D:\Learn\DOTNET\DOTNET\T2108M_buoi1\T2108M_UWP\bin\x86\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>2494737BD0123DD85936F8C0B0CF671385DDF097888D25584DA7BC2B0464D90D</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>50f6f70e-ed52-46b7-aab7-229ac30e7e98_1.0.0.0_x86__3gx5rry0ccnx8</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>50f6f70e-ed52-46b7-aab7-229ac30e7e98_3gx5rry0ccnx8!App</RegisteredUserModeAppID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\Learn\DOTNET\T2108M_buoi1\T2108M_UWP\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="D:\Learn\DOTNET\DOTNET\T2108M_buoi1\T2108M_UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-06-21T13:54:50.135</Modified>
+      <Modified>2022-07-11T02:29:52.102</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\Learn\DOTNET\T2108M_buoi1\T2108M_UWP\bin\x86\Debug\T2108M_UWP.exe">
+    <AppxPackagedFile Include="D:\Learn\DOTNET\DOTNET\T2108M_buoi1\T2108M_UWP\bin\x86\Debug\T2108M_UWP.exe">
       <PackagePath>entrypoint\T2108M_UWP.exe</PackagePath>
-      <Modified>2022-06-21T13:54:46.905</Modified>
+      <Modified>2022-07-11T02:29:49.456</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Administrator\.nuget\packages\newtonsoft.json\13.0.1\lib\netstandard2.0\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
@@ -58,87 +58,87 @@
       <PackagePath>SQLitePCL.Ext.dll</PackagePath>
       <Modified>2014-12-09T11:04:52.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Learn\DOTNET\T2108M_buoi1\T2108M_UWP\sqlite3.dll">
+    <AppxPackagedFile Include="D:\Learn\DOTNET\DOTNET\T2108M_buoi1\T2108M_UWP\sqlite3.dll">
       <PackagePath>sqlite3.dll</PackagePath>
       <Modified>2022-06-21T13:03:45.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Learn\DOTNET\T2108M_buoi1\T2108M_UWP\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="D:\Learn\DOTNET\DOTNET\T2108M_buoi1\T2108M_UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2022-06-21T13:03:45.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Learn\DOTNET\T2108M_buoi1\T2108M_UWP\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\Learn\DOTNET\DOTNET\T2108M_buoi1\T2108M_UWP\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2022-06-21T13:03:45.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Learn\DOTNET\T2108M_buoi1\T2108M_UWP\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\Learn\DOTNET\DOTNET\T2108M_buoi1\T2108M_UWP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2022-06-21T13:03:45.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Learn\DOTNET\T2108M_buoi1\T2108M_UWP\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\Learn\DOTNET\DOTNET\T2108M_buoi1\T2108M_UWP\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2022-06-21T13:03:45.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Learn\DOTNET\T2108M_buoi1\T2108M_UWP\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\Learn\DOTNET\DOTNET\T2108M_buoi1\T2108M_UWP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2022-06-21T13:03:45.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Learn\DOTNET\T2108M_buoi1\T2108M_UWP\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="D:\Learn\DOTNET\DOTNET\T2108M_buoi1\T2108M_UWP\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2022-06-21T13:03:45.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Learn\DOTNET\T2108M_buoi1\T2108M_UWP\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="D:\Learn\DOTNET\DOTNET\T2108M_buoi1\T2108M_UWP\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2022-06-21T13:03:45.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Learn\DOTNET\T2108M_buoi1\T2108M_UWP\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\Learn\DOTNET\DOTNET\T2108M_buoi1\T2108M_UWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2022-06-21T13:03:45.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Learn\DOTNET\T2108M_buoi1\T2108M_UWP\bin\x86\Debug\T2108M_UWP.xr.xml">
+    <AppxPackagedFile Include="D:\Learn\DOTNET\DOTNET\T2108M_buoi1\T2108M_UWP\bin\x86\Debug\T2108M_UWP.xr.xml">
       <PackagePath>T2108M_UWP.xr.xml</PackagePath>
       <Modified>2022-06-21T13:54:46.624</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Learn\DOTNET\T2108M_buoi1\T2108M_UWP\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="D:\Learn\DOTNET\DOTNET\T2108M_buoi1\T2108M_UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2022-06-21T13:54:46.723</Modified>
+      <Modified>2022-07-11T02:29:49.257</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Learn\DOTNET\T2108M_buoi1\T2108M_UWP\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="D:\Learn\DOTNET\DOTNET\T2108M_buoi1\T2108M_UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2022-06-21T13:54:46.724</Modified>
+      <Modified>2022-07-11T02:29:49.257</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Learn\DOTNET\T2108M_buoi1\T2108M_UWP\bin\x86\Debug\Pages\Account.xbf">
+    <AppxPackagedFile Include="D:\Learn\DOTNET\DOTNET\T2108M_buoi1\T2108M_UWP\bin\x86\Debug\Pages\Account.xbf">
       <PackagePath>Pages\Account.xbf</PackagePath>
-      <Modified>2022-06-21T13:54:46.724</Modified>
+      <Modified>2022-07-11T02:29:49.257</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Learn\DOTNET\T2108M_buoi1\T2108M_UWP\bin\x86\Debug\Pages\Home.xbf">
+    <AppxPackagedFile Include="D:\Learn\DOTNET\DOTNET\T2108M_buoi1\T2108M_UWP\bin\x86\Debug\Pages\Home.xbf">
       <PackagePath>Pages\Home.xbf</PackagePath>
-      <Modified>2022-06-21T13:54:46.724</Modified>
+      <Modified>2022-07-11T02:29:49.258</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Learn\DOTNET\T2108M_buoi1\T2108M_UWP\bin\x86\Debug\Pages\QLSV.xbf">
+    <AppxPackagedFile Include="D:\Learn\DOTNET\DOTNET\T2108M_buoi1\T2108M_UWP\bin\x86\Debug\Pages\QLSV.xbf">
       <PackagePath>Pages\QLSV.xbf</PackagePath>
-      <Modified>2022-06-21T13:54:46.724</Modified>
+      <Modified>2022-07-11T02:29:49.258</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Learn\DOTNET\T2108M_buoi1\T2108M_UWP\bin\x86\Debug\Pages\Weather.xbf">
+    <AppxPackagedFile Include="D:\Learn\DOTNET\DOTNET\T2108M_buoi1\T2108M_UWP\bin\x86\Debug\Pages\Weather.xbf">
       <PackagePath>Pages\Weather.xbf</PackagePath>
-      <Modified>2022-06-21T13:54:46.724</Modified>
+      <Modified>2022-07-11T02:29:49.258</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2020-12-01T19:52:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Learn\DOTNET\T2108M_buoi1\T2108M_UWP\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="D:\Learn\DOTNET\DOTNET\T2108M_buoi1\T2108M_UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <Modified>2022-06-21T13:54:48.888</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Learn\DOTNET\T2108M_buoi1\T2108M_UWP\bin\x86\Debug\Core\T2108M_UWP.exe">
+    <AppxPackagedFile Include="D:\Learn\DOTNET\DOTNET\T2108M_buoi1\T2108M_UWP\bin\x86\Debug\Core\T2108M_UWP.exe">
       <PackagePath>T2108M_UWP.exe</PackagePath>
-      <Modified>2022-06-21T13:54:50.126</Modified>
+      <Modified>2022-07-11T02:29:52.094</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
